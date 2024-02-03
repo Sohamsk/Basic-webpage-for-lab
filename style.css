@@ -1,0 +1,19 @@
+* {
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+/* https://coolors.co/palette/264653-2a9d8f-e9c46a-f4a261-e76f51 */
+nav {
+    margin: 1vh;
+    padding-left: 1vw;
+    background-color: #264653;
+    color: white;
+}
+
+@media (max-width: 1080px) {
+    nav {
+        text-align: center;
+    }
+}
