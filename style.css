@@ -2,18 +2,74 @@
     font-size: 50px;
     margin: 0;
     padding: 0;
+    background: #40916C;
 }
 
-/* https://coolors.co/palette/264653-2a9d8f-e9c46a-f4a261-e76f51 */
+/* @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap'); */
+
+/* https://coolors.co/palette/d8f3dc-b7e4c7-95d5b2-74c69d-52b788-1B4332-2d6a4f-1b4332-081c15 */
 nav {
     margin: 1vh;
     padding-left: 1vw;
-    background-color: #264653;
-    color: white;
+    background-color: #1B4332;
+    border-radius: 0.2rem;
+    font-family: 'Protest Riot', sans-serif;
+}
+
+nav a {
+    background-color: #1B4332;
+    color: #D8F3DC;
+    text-decoration: none;
+}
+
+footer {
+    font-size: x-large;
+    background: #1B4332;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    height: 1rem;
+    margin: 1vh;
+    border-radius: 0.2rem;
+}
+
+footer a img {
+    background: #1B4332;
+    width: 1rem;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#products article {
+    height: auto;
+    width: 21vw;
+    text-align: center;
+    font-size: 0.5rem;
+    display: flex;
+}
+
+#products article img {
+    padding: 0.5vw;
+    width: inherit;
+    height: auto;
+    border-radius: 0.2rem;
 }
 
 @media (max-width: 1080px) {
     nav {
         text-align: center;
     }
+
+    #products article {
+        height: auto;
+        width: 39.6vw;
+    }
+
+    /* #products article img {
+
+    } */
 }
