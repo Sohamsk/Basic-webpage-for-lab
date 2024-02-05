@@ -7,7 +7,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product</title>
-    <link rel="stylesheet" href="common.css">
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/common.css">
+    <style>
+        * {
+            color: #95D5B2;
+        }
+
+        #product {
+            display: grid;
+            grid-template-columns: 50vw auto;
+            text-align: center;
+        }
+
+        #product img {
+            width: 40vw;
+        }
+
+        #product article {
+            text-align: justify;
+        }
+
+        #product button {
+            background: #081C15;
+        }
+
+        #description {
+            grid-column: 1 / span 2;
+            padding: 0vw 20vw 0vw 20vw;
+        }
+
+        @media (max-width: 1080px) {
+            #product {
+                display: block;
+            }
+
+            #product img {
+                width: 50vw;
+            }
+
+            #description {
+                padding: 0;
+                line-height: 10px;
+                font-family: 'Times New Roman', Times, serif;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -16,6 +61,21 @@
             <a href="/">Soham Shoes</a>
         </nav>
     </header>
+    <section id="product">
+        <span><img
+                src="https://img.freepik.com/free-psd/shoes-sale-social-media-post-template-design_505751-4476.jpg?size=626&ext=jpg"
+                alt="product"></span>
+        <article>₹ 2000<br><button>Buy Now</button></article>
+        <span id="description" style="font-size: x-large;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, eaque totam, illum aliquid distinctio eum
+            saepe quaerat dolores dolor repudiandae ratione inventore rem blanditiis aspernatur recusandae nobis iste
+            id, ducimus asperiores doloremque maiores amet non. Tempore voluptatem est sunt et vero ratione dolorem quae
+            eum nesciunt, ipsum possimus itaque consequuntur blanditiis, similique sequi fugit magni deleniti officia
+            libero molestias impedit quisquam? Recusandae fugit non fugiat illum ad voluptates ullam unde, id, voluptas
+            nemo nesciunt asperiores natus. Totam velit dolorem, unde officiis odio vitae, veritatis maxime temporibus a
+            eos blanditiis iste sed dignissimos corporis ipsam distinctio sequi quo rem cum. Molestias.
+        </span>
+    </section>
     <footer>
         <a href="mailto:soham_kudalkar_comp@moderncoe.edu.in" target="_blank" rel="noopener noreferrer">
             <img src="contacts.png" alt="">

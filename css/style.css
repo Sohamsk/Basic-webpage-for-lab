@@ -1,0 +1,40 @@
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#products article {
+    height: auto;
+    width: 21vw;
+    text-align: center;
+    font-size: 0.5rem;
+    display: flex;
+}
+
+#products article a img {
+    padding: 0.5vw;
+    width: inherit;
+    height: auto;
+    border-radius: 0.2rem;
+}
+
+#products article a {
+    color: inherit;
+    text-decoration: inherit;
+    width: inherit;
+    height: auto;
+}
+
+@media (max-width: 1080px) {
+
+
+    #products article {
+        height: auto;
+        width: 39.6vw;
+    }
+
+    /* #products article img {
+
+    } */
+}
